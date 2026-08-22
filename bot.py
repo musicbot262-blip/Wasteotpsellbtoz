@@ -47,8 +47,8 @@ BOT_TOKEN = os.getenv('BOT_TOKEN', 'BOT_TOKEN')
 ADMIN_ID = int(os.getenv('ADMIN_ID', '8714869727'))
 PARTNER_ID = int(os.getenv('PARTNER_ID', '7694709319'))
 MONGO_URL = os.getenv('MONGO_URL', 'MANGO_URL')
-API_ID = int(os.getenv('API_ID', 'API_ID))
-API_HASH = os.getenv('API_HASH', '')
+API_ID = int(os.getenv("API_ID", "0"))
+API_HASH = os.getenv("API_HASH", "")
 
 # MUST JOIN CHANNELS - TWO CHANNELS
 MUST_JOIN_CHANNEL_1 = "@AlexvoOtp"
